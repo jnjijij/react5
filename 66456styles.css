@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* HomePage styles */
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Link styles */
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff8c00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* MoviesPage styles */
+.movies-page {
+  text-align: center;
+}
+
+.movies-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movie-item {
+  margin-bottom: 20px;
+}
+
+.movie-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Common styles */
+h1, h2 {
+  color: #ff8c00;
+}
+
+/* Global styles */
+body {
+  background-color: #333;
+  color: #fff;
+}
